@@ -1,0 +1,322 @@
+CRITICAL - 2024-01-15 07:20:48 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-01-15 07:20:48 --> ErrorException: Uncaught TypeError: Return value of CodeIgniter\HTTP\IncomingRequest::getPostMaxSize() must be of the type int, float returned in C:\xampp\htdocs\affiliategenie_ci4\system\HTTP\IncomingRequest.php:215
+Stack trace:
+#0 C:\xampp\htdocs\affiliategenie_ci4\system\HTTP\IncomingRequest.php(166): CodeIgniter\HTTP\IncomingRequest->getPostMaxSize()
+#1 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(568): CodeIgniter\HTTP\IncomingRequest->__construct(Object(Config\App), Object(CodeIgniter\HTTP\SiteURI), 'php://input', Object(CodeIgniter\HTTP\UserAgent))
+#2 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#3 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#4 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#5 C:\xampp\htdocs\affiliategenie_ci4\system\Conf
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\affiliategenie_ci4\system\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\affiliategenie_ci4\system\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\affiliategenie_ci4\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 215.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-15 07:23:32 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-01-15 07:23:32 --> ErrorException: Uncaught TypeError: Return value of CodeIgniter\HTTP\IncomingRequest::getPostMaxSize() must be of the type int, float returned in C:\xampp\htdocs\affiliategenie_ci4\system\HTTP\IncomingRequest.php:215
+Stack trace:
+#0 C:\xampp\htdocs\affiliategenie_ci4\system\HTTP\IncomingRequest.php(166): CodeIgniter\HTTP\IncomingRequest->getPostMaxSize()
+#1 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(568): CodeIgniter\HTTP\IncomingRequest->__construct(Object(Config\App), Object(CodeIgniter\HTTP\SiteURI), 'php://input', Object(CodeIgniter\HTTP\UserAgent))
+#2 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#3 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#4 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#5 C:\xampp\htdocs\affiliategenie_ci4\system\Conf
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\affiliategenie_ci4\system\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\affiliategenie_ci4\system\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\affiliategenie_ci4\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 215.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-15 07:23:34 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-01-15 07:23:34 --> ErrorException: Uncaught TypeError: Return value of CodeIgniter\HTTP\IncomingRequest::getPostMaxSize() must be of the type int, float returned in C:\xampp\htdocs\affiliategenie_ci4\system\HTTP\IncomingRequest.php:215
+Stack trace:
+#0 C:\xampp\htdocs\affiliategenie_ci4\system\HTTP\IncomingRequest.php(166): CodeIgniter\HTTP\IncomingRequest->getPostMaxSize()
+#1 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(568): CodeIgniter\HTTP\IncomingRequest->__construct(Object(Config\App), Object(CodeIgniter\HTTP\SiteURI), 'php://input', Object(CodeIgniter\HTTP\UserAgent))
+#2 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#3 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#4 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#5 C:\xampp\htdocs\affiliategenie_ci4\system\Conf
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\affiliategenie_ci4\system\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\affiliategenie_ci4\system\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\affiliategenie_ci4\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 215.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-15 07:23:35 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-01-15 07:23:35 --> ErrorException: Uncaught TypeError: Return value of CodeIgniter\HTTP\IncomingRequest::getPostMaxSize() must be of the type int, float returned in C:\xampp\htdocs\affiliategenie_ci4\system\HTTP\IncomingRequest.php:215
+Stack trace:
+#0 C:\xampp\htdocs\affiliategenie_ci4\system\HTTP\IncomingRequest.php(166): CodeIgniter\HTTP\IncomingRequest->getPostMaxSize()
+#1 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(568): CodeIgniter\HTTP\IncomingRequest->__construct(Object(Config\App), Object(CodeIgniter\HTTP\SiteURI), 'php://input', Object(CodeIgniter\HTTP\UserAgent))
+#2 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#3 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#4 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#5 C:\xampp\htdocs\affiliategenie_ci4\system\Conf
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\affiliategenie_ci4\system\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\affiliategenie_ci4\system\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\affiliategenie_ci4\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 215.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-15 07:23:35 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-01-15 07:23:35 --> ErrorException: Uncaught TypeError: Return value of CodeIgniter\HTTP\IncomingRequest::getPostMaxSize() must be of the type int, float returned in C:\xampp\htdocs\affiliategenie_ci4\system\HTTP\IncomingRequest.php:215
+Stack trace:
+#0 C:\xampp\htdocs\affiliategenie_ci4\system\HTTP\IncomingRequest.php(166): CodeIgniter\HTTP\IncomingRequest->getPostMaxSize()
+#1 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(568): CodeIgniter\HTTP\IncomingRequest->__construct(Object(Config\App), Object(CodeIgniter\HTTP\SiteURI), 'php://input', Object(CodeIgniter\HTTP\UserAgent))
+#2 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#3 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#4 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#5 C:\xampp\htdocs\affiliategenie_ci4\system\Conf
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\affiliategenie_ci4\system\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\affiliategenie_ci4\system\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\affiliategenie_ci4\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 215.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-15 07:23:35 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-01-15 07:23:35 --> ErrorException: Uncaught TypeError: Return value of CodeIgniter\HTTP\IncomingRequest::getPostMaxSize() must be of the type int, float returned in C:\xampp\htdocs\affiliategenie_ci4\system\HTTP\IncomingRequest.php:215
+Stack trace:
+#0 C:\xampp\htdocs\affiliategenie_ci4\system\HTTP\IncomingRequest.php(166): CodeIgniter\HTTP\IncomingRequest->getPostMaxSize()
+#1 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(568): CodeIgniter\HTTP\IncomingRequest->__construct(Object(Config\App), Object(CodeIgniter\HTTP\SiteURI), 'php://input', Object(CodeIgniter\HTTP\UserAgent))
+#2 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#3 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#4 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#5 C:\xampp\htdocs\affiliategenie_ci4\system\Conf
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\affiliategenie_ci4\system\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\affiliategenie_ci4\system\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\affiliategenie_ci4\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 215.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-15 07:23:35 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-01-15 07:23:35 --> ErrorException: Uncaught TypeError: Return value of CodeIgniter\HTTP\IncomingRequest::getPostMaxSize() must be of the type int, float returned in C:\xampp\htdocs\affiliategenie_ci4\system\HTTP\IncomingRequest.php:215
+Stack trace:
+#0 C:\xampp\htdocs\affiliategenie_ci4\system\HTTP\IncomingRequest.php(166): CodeIgniter\HTTP\IncomingRequest->getPostMaxSize()
+#1 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(568): CodeIgniter\HTTP\IncomingRequest->__construct(Object(Config\App), Object(CodeIgniter\HTTP\SiteURI), 'php://input', Object(CodeIgniter\HTTP\UserAgent))
+#2 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#3 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#4 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#5 C:\xampp\htdocs\affiliategenie_ci4\system\Conf
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\affiliategenie_ci4\system\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\affiliategenie_ci4\system\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\affiliategenie_ci4\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 215.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-15 06:23:57 --> TypeError: Return value of CodeIgniter\HTTP\IncomingRequest::getPostMaxSize() must be of the type int, float returned
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 215.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(166): CodeIgniter\HTTP\IncomingRequest->getPostMaxSize()
+ 2 SYSTEMPATH\Config\Services.php(568): CodeIgniter\HTTP\IncomingRequest->__construct(Object(Config\App), Object(CodeIgniter\HTTP\SiteURI), 'php://input', Object(CodeIgniter\HTTP\UserAgent))
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+ 4 SYSTEMPATH\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+ 5 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+ 6 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', [...])
+ 7 SYSTEMPATH\Config\Services.php(559): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+ 8 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+ 9 SYSTEMPATH\Config\Services.php(539): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+10 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+11 SYSTEMPATH\CodeIgniter.php(655): CodeIgniter\Config\BaseService::__callStatic('createRequest', [...])
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->getRequestObject()
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 06:23:57 --> ErrorException: Uncaught TypeError: Return value of CodeIgniter\HTTP\IncomingRequest::getPostMaxSize() must be of the type int, float returned in C:\xampp\htdocs\affiliategenie_ci4\system\HTTP\IncomingRequest.php:215
+Stack trace:
+#0 C:\xampp\htdocs\affiliategenie_ci4\system\HTTP\IncomingRequest.php(166): CodeIgniter\HTTP\IncomingRequest->getPostMaxSize()
+#1 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(568): CodeIgniter\HTTP\IncomingRequest->__construct(Object(Config\App), Object(CodeIgniter\HTTP\SiteURI), 'php://input', Object(CodeIgniter\HTTP\UserAgent))
+#2 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#3 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#4 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#5 C:\xampp\htdocs\affiliategenie_ci4\system\Conf
+【Previous Exception】
+TypeError
+Return value of CodeIgniter\HTTP\IncomingRequest::getPostMaxSize() must be of the type int, float returned
+#0 C:\xampp\htdocs\affiliategenie_ci4\system\HTTP\IncomingRequest.php(166): CodeIgniter\HTTP\IncomingRequest->getPostMaxSize()
+#1 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(568): CodeIgniter\HTTP\IncomingRequest->__construct(Object(Config\App), Object(CodeIgniter\HTTP\SiteURI), 'php://input', Object(CodeIgniter\HTTP\UserAgent))
+#2 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#3 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#4 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+#5 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#6 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(559): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+#7 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+#8 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(539): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#9 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+#10 C:\xampp\htdocs\affiliategenie_ci4\system\CodeIgniter.php(655): CodeIgniter\Config\BaseService::__callStatic('createRequest', Array)
+#11 C:\xampp\htdocs\affiliategenie_ci4\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->getRequestObject()
+#12 C:\xampp\htdocs\affiliategenie_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 215.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-15 06:23:58 --> TypeError: Return value of CodeIgniter\HTTP\IncomingRequest::getPostMaxSize() must be of the type int, float returned
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 215.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(166): CodeIgniter\HTTP\IncomingRequest->getPostMaxSize()
+ 2 SYSTEMPATH\Config\Services.php(568): CodeIgniter\HTTP\IncomingRequest->__construct(Object(Config\App), Object(CodeIgniter\HTTP\SiteURI), 'php://input', Object(CodeIgniter\HTTP\UserAgent))
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+ 4 SYSTEMPATH\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+ 5 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+ 6 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', [...])
+ 7 SYSTEMPATH\Config\Services.php(559): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+ 8 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+ 9 SYSTEMPATH\Config\Services.php(539): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+10 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+11 SYSTEMPATH\CodeIgniter.php(655): CodeIgniter\Config\BaseService::__callStatic('createRequest', [...])
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->getRequestObject()
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 06:23:58 --> ErrorException: Uncaught TypeError: Return value of CodeIgniter\HTTP\IncomingRequest::getPostMaxSize() must be of the type int, float returned in C:\xampp\htdocs\affiliategenie_ci4\system\HTTP\IncomingRequest.php:215
+Stack trace:
+#0 C:\xampp\htdocs\affiliategenie_ci4\system\HTTP\IncomingRequest.php(166): CodeIgniter\HTTP\IncomingRequest->getPostMaxSize()
+#1 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(568): CodeIgniter\HTTP\IncomingRequest->__construct(Object(Config\App), Object(CodeIgniter\HTTP\SiteURI), 'php://input', Object(CodeIgniter\HTTP\UserAgent))
+#2 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#3 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#4 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#5 C:\xampp\htdocs\affiliategenie_ci4\system\Conf
+【Previous Exception】
+TypeError
+Return value of CodeIgniter\HTTP\IncomingRequest::getPostMaxSize() must be of the type int, float returned
+#0 C:\xampp\htdocs\affiliategenie_ci4\system\HTTP\IncomingRequest.php(166): CodeIgniter\HTTP\IncomingRequest->getPostMaxSize()
+#1 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(568): CodeIgniter\HTTP\IncomingRequest->__construct(Object(Config\App), Object(CodeIgniter\HTTP\SiteURI), 'php://input', Object(CodeIgniter\HTTP\UserAgent))
+#2 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#3 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#4 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+#5 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#6 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(559): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+#7 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+#8 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(539): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#9 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+#10 C:\xampp\htdocs\affiliategenie_ci4\system\CodeIgniter.php(655): CodeIgniter\Config\BaseService::__callStatic('createRequest', Array)
+#11 C:\xampp\htdocs\affiliategenie_ci4\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->getRequestObject()
+#12 C:\xampp\htdocs\affiliategenie_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 215.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-15 06:23:58 --> TypeError: Return value of CodeIgniter\HTTP\IncomingRequest::getPostMaxSize() must be of the type int, float returned
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 215.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(166): CodeIgniter\HTTP\IncomingRequest->getPostMaxSize()
+ 2 SYSTEMPATH\Config\Services.php(568): CodeIgniter\HTTP\IncomingRequest->__construct(Object(Config\App), Object(CodeIgniter\HTTP\SiteURI), 'php://input', Object(CodeIgniter\HTTP\UserAgent))
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+ 4 SYSTEMPATH\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+ 5 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+ 6 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', [...])
+ 7 SYSTEMPATH\Config\Services.php(559): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+ 8 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+ 9 SYSTEMPATH\Config\Services.php(539): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+10 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+11 SYSTEMPATH\CodeIgniter.php(655): CodeIgniter\Config\BaseService::__callStatic('createRequest', [...])
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->getRequestObject()
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 06:23:58 --> ErrorException: Uncaught TypeError: Return value of CodeIgniter\HTTP\IncomingRequest::getPostMaxSize() must be of the type int, float returned in C:\xampp\htdocs\affiliategenie_ci4\system\HTTP\IncomingRequest.php:215
+Stack trace:
+#0 C:\xampp\htdocs\affiliategenie_ci4\system\HTTP\IncomingRequest.php(166): CodeIgniter\HTTP\IncomingRequest->getPostMaxSize()
+#1 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(568): CodeIgniter\HTTP\IncomingRequest->__construct(Object(Config\App), Object(CodeIgniter\HTTP\SiteURI), 'php://input', Object(CodeIgniter\HTTP\UserAgent))
+#2 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#3 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#4 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#5 C:\xampp\htdocs\affiliategenie_ci4\system\Conf
+【Previous Exception】
+TypeError
+Return value of CodeIgniter\HTTP\IncomingRequest::getPostMaxSize() must be of the type int, float returned
+#0 C:\xampp\htdocs\affiliategenie_ci4\system\HTTP\IncomingRequest.php(166): CodeIgniter\HTTP\IncomingRequest->getPostMaxSize()
+#1 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(568): CodeIgniter\HTTP\IncomingRequest->__construct(Object(Config\App), Object(CodeIgniter\HTTP\SiteURI), 'php://input', Object(CodeIgniter\HTTP\UserAgent))
+#2 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#3 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#4 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+#5 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#6 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(559): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+#7 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+#8 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(539): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#9 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+#10 C:\xampp\htdocs\affiliategenie_ci4\system\CodeIgniter.php(655): CodeIgniter\Config\BaseService::__callStatic('createRequest', Array)
+#11 C:\xampp\htdocs\affiliategenie_ci4\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->getRequestObject()
+#12 C:\xampp\htdocs\affiliategenie_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 215.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-15 06:23:59 --> TypeError: Return value of CodeIgniter\HTTP\IncomingRequest::getPostMaxSize() must be of the type int, float returned
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 215.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(166): CodeIgniter\HTTP\IncomingRequest->getPostMaxSize()
+ 2 SYSTEMPATH\Config\Services.php(568): CodeIgniter\HTTP\IncomingRequest->__construct(Object(Config\App), Object(CodeIgniter\HTTP\SiteURI), 'php://input', Object(CodeIgniter\HTTP\UserAgent))
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+ 4 SYSTEMPATH\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+ 5 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+ 6 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', [...])
+ 7 SYSTEMPATH\Config\Services.php(559): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+ 8 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+ 9 SYSTEMPATH\Config\Services.php(539): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+10 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+11 SYSTEMPATH\CodeIgniter.php(655): CodeIgniter\Config\BaseService::__callStatic('createRequest', [...])
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->getRequestObject()
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 06:23:59 --> ErrorException: Uncaught TypeError: Return value of CodeIgniter\HTTP\IncomingRequest::getPostMaxSize() must be of the type int, float returned in C:\xampp\htdocs\affiliategenie_ci4\system\HTTP\IncomingRequest.php:215
+Stack trace:
+#0 C:\xampp\htdocs\affiliategenie_ci4\system\HTTP\IncomingRequest.php(166): CodeIgniter\HTTP\IncomingRequest->getPostMaxSize()
+#1 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(568): CodeIgniter\HTTP\IncomingRequest->__construct(Object(Config\App), Object(CodeIgniter\HTTP\SiteURI), 'php://input', Object(CodeIgniter\HTTP\UserAgent))
+#2 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#3 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#4 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#5 C:\xampp\htdocs\affiliategenie_ci4\system\Conf
+【Previous Exception】
+TypeError
+Return value of CodeIgniter\HTTP\IncomingRequest::getPostMaxSize() must be of the type int, float returned
+#0 C:\xampp\htdocs\affiliategenie_ci4\system\HTTP\IncomingRequest.php(166): CodeIgniter\HTTP\IncomingRequest->getPostMaxSize()
+#1 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(568): CodeIgniter\HTTP\IncomingRequest->__construct(Object(Config\App), Object(CodeIgniter\HTTP\SiteURI), 'php://input', Object(CodeIgniter\HTTP\UserAgent))
+#2 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#3 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#4 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+#5 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#6 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(559): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+#7 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+#8 C:\xampp\htdocs\affiliategenie_ci4\system\Config\Services.php(539): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#9 C:\xampp\htdocs\affiliategenie_ci4\system\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+#10 C:\xampp\htdocs\affiliategenie_ci4\system\CodeIgniter.php(655): CodeIgniter\Config\BaseService::__callStatic('createRequest', Array)
+#11 C:\xampp\htdocs\affiliategenie_ci4\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->getRequestObject()
+#12 C:\xampp\htdocs\affiliategenie_ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 215.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
